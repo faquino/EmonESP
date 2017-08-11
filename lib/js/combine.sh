@@ -5,7 +5,7 @@ SRC_DIR=$LIB_DIR/../../src/data
 
 rm $SRC_DIR/lib.*
 
-C=0
+C=1
 
 if [ 1 -eq $C ]; then
   COMP="gzip -c"
